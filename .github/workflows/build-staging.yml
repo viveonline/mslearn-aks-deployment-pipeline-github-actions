@@ -30,4 +30,4 @@ jobs:
           
   deploy:
     runs-on: ubuntu-20.04
-    needs: build_push_image # Will wait for the execution of the previous job
+    needs: build_push_image # Will wait for the execution of the previous joby
